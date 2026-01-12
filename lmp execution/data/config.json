@@ -1,0 +1,59 @@
+{
+  "solver": "highs",
+  "solver_time_limit_s": 600,
+  "solver_mip_gap": 0.02,
+
+  "use_binary_commitment": true,
+  "disable_min_updown": true,
+  "single_pass_objective": true,
+
+  "uc_window_hours": 48,
+  "uc_commit_hours": 24,
+  "disallow_late_starts": true,
+
+  "reserve_requirement_percent": 10.0,
+  "reserve_on_served_demand": true,
+  "reserve_slack_penalty_per_MW": 1000.0,
+  "reserve_shortfall_cost_per_MW": 1000.0,
+  "reserve_allow_battery_drop_charge": true,
+
+  "voll_MWh": 9999.0,
+  "spill_penalty_per_MWh": 5.0,
+
+  "battery_tech_labels": ["battery", "Battery", "BATTERY"],
+  "battery_eta_charge": 0.95,
+  "battery_eta_discharge": 0.95,
+  "battery_exclusive_mode": true,
+
+  "must_run_mode": "soft",
+  "must_run_tech_labels": ["nuclear"],
+  "must_run_gen_ids": [],
+  "must_run_off_penalty_per_hour": 1000000.0,
+
+  "sbase_MVA": 1000.0,
+  "target_end_ts": "2024-12-31 23:30",
+
+  "battery_carry_soc_across_days": true,
+
+  "battery_da_energy_neutral": true,
+  "battery_da_energy_neutral_hard": true,
+  "battery_terminal_soc_frac": null,
+  "battery_terminal_soc_penalty_per_MWh": 5.0,
+
+  "battery_rt_energy_neutral": true,
+  "battery_rt_energy_neutral_hard": true,
+  "battery_rt_terminal_soc_frac": null,
+  "battery_rt_terminal_soc_penalty_per_MWh": 2000,
+
+  "battery_profile_caps_discharge": false,
+  "battery_cycle_cost_MWh": 5.0,
+
+  "local_first_export_cost_MWh": 1.0,
+  "local_first_import_cost_MWh": 0.0,
+
+  "pricing_eps": 0.1,
+  "rt_fd_epsilon_MW": 0.1,
+  "settlement_price_cap_MWh": 6000.0,
+  "reserve_availability_price_per_MW_h": 7.5,
+  "reserve_availability_price_units": "currency_per_MW_h"
+}
