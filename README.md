@@ -36,6 +36,28 @@ This repository contains **supporting materials** for the PhD, including:
 **The scripts provided here primarily generate inputs and supporting artefacts** for the models and analyses presented in the PhD, rather than duplicating the full theoretical development.
 
 ---
+## Getting Started
 
-## Repository Structure (Indicative)
+Clone the repository and install dependencies as required by individual scripts:
+
+```bash
+git clone https://github.com/<your-org>/<your-repo>.git
+cd <your-repo>
+Further usage instructions are provided within relevant subdirectories and scripts.
+
+Related Work
+For full theoretical background, methodology, and results, please refer to:
+
+A Fair, Flexible, Zero-Waste Digital Electricity Market:
+A First-Principles Approach Combining Automatic Market Making, Holarchic Architectures and Shapley Theory
+📄 https://arxiv.org/abs/2512.13871
+
+Contact
+For any queries or discussion:
+
+📧 fight@enleashed.tech
+🐦 X (Twitter): @EnleashedT17667
+
+
+
 
